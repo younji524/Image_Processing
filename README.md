@@ -19,11 +19,11 @@
     - 생성 혹은 압축된 영상의 화질에 대한 손실 정보를 평가 <br/>
     - 손실이 적을 수록 (품질이 좋을수록) 높은 점수를 보임 <br/>
 <br/>
-3. SSIM(Structural Similarity Index Map)
+2. SSIM(Structural Similarity Index Map)
     - 휘도, 대조, 구조를 기준으로 영상의 화질을 평가 <br/>
     - 품질이 좋을수록 높은 점수를 보임 <br/>
 <br/>
-4. Brisque(Blind/Referenceless Image Spatial Quality Evaluator)
+3. Brisque(Blind/Referenceless Image Spatial Quality Evaluator)
     - 영상 A의 무참조(No-Reference) 영상 품질 점수를 계산 <br/>
     - brisque는 A를 유사 왜곡이 있는 자연 장면 영상에서 계산된 디폴트 모델과 비교 <br/>
     - 품질이 좋을수록 높은 점수를 보임 <br/>
