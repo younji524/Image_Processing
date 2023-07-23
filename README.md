@@ -13,6 +13,11 @@
     - 주변 픽셀과의 차이를 극대화시켜 명암 비를 증가시킴으로써 이미지의 구조적 정보 및 경계를 강조시켜 선명한 이미지를 얻는 영상처리 기법
 <br/><br/>
 
+**[원본 영상과 영상처리 알고리즘 적용 결과]** <br/>
+(왼쪽부터 차례로 원본, sharpening, Histogram Equalization, CLAHE가 적용되었다.) <br/><br/>
+![그림1](https://github.com/younji524/Image_Processing/assets/76142194/b72537f0-bfb9-4ad5-a8ce-54aa7736995e)
+
+<br/><br/>
 또한, 알고리즘을 처리한 영상에 대하여 영상의 품질을 비교하여 아래의 두 가지 점수를 계산하였습니다. <br/><br/>
 
 1. PSNR(Peak Signal-to-Noise Ratio) <br/><br/>
