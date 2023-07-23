@@ -3,13 +3,13 @@
 자궁경부 데이터에 대하여 여러 영상처리 알고리즘을 적용 후, 딥러닝 분류 모델의 정확도를 비교하였습니다.
 영상처리 알고리즘 리스트는 다음과 같습니다.
 <br/>
-1. Histogram Equalization <br/>
+1. Histogram Equalization <br/><br/>
     - 좁은 범위에 집중되어 있는 픽셀 값들을 0 ~ 255 범위에 골고루 분포하도록 변화하는 영상처리 기법
 <br/><br/>
-2. CLAHE(Contrast Limited Adaptive Histogram Eqaulization) <br/>
+2. CLAHE(Contrast Limited Adaptive Histogram Eqaulization) <br/><br/>
     - 영상을 일정한 크기의 작은 블록으로 구분하고, 블록 별로 히스토그램 균일화를 시행함
 <br/><br/>
-3. Sharpening <br/>
+3. Sharpening <br/><br/>
     - 주변 픽셀과의 차이를 극대화시켜 명암 비를 증가시킴으로써 이미지의 구조적 정보 및 경계를 강조시켜 선명한 이미지를 얻는 영상처리 기법
 <br/><br/>
 
